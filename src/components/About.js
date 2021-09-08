@@ -1,4 +1,5 @@
 import React from 'react';
+import Selfie from './images/site/profile-photo-sm.jpg';
 import '../style.css';
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
                     <h2 class="post-title">About Me</h2>
                     <div class="post-description">
 
-                        <img id="profilePic" src="./images/site/profile-photo-sm.jpg" alt="" title="I like hiking, too." />
+                        <img id="profilePic" src={Selfie} alt="" title="I like hiking, too." />
 
                         <p>Hello! I'm Ran, a full-stack web developer. I'm a creative who's passionate about building websites.</p>
 

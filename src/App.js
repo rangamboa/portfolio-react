@@ -5,8 +5,7 @@ import './style.css';
 function App() {
   return (
     <>
-    <Main />
-    <p>outside of main div.</p>
+     <Main />
     </>
   )
 }

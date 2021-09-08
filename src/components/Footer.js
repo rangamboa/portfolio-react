@@ -1,13 +1,12 @@
 import React from 'react';
 import '../style.css';
 
-export default function Resume() {
+export default function Footer() {
     return (
         <>
-            <br /><br />
-            <br /><br />
-            <br /><br />
+            <div id="footerDiv">
             <div>&copy;2021 Ran Gamboa. Thank you for visiting! ☕</div>
+            </div>
         </>
     )
 }

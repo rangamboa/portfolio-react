@@ -75,6 +75,7 @@ nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    font-size: x-large;
 }
 
 .nav-item {
@@ -83,18 +84,24 @@ nav {
     margin-bottom: 10px;
 }
 
+.nav-item-active {
+    background-color: darkgreen;
+}
+
 .nav-item a {
-    border-bottom: 2px solid rgb(176, 219, 187);
     color: rgb(176, 219, 187);
     letter-spacing: -0.5px;
-    transition: color 0.25s;
-    transition: border 0.25s;
+    border: none;
+}
+
+.nav-item-active a {
+    color: white;
 }
 
 .nav-item a:hover,
 .nav-item a:focus {
     color: white;
-    border-bottom: 2px solid white;
+    border: none;
     text-decoration: none;
 }
 
@@ -104,6 +111,7 @@ nav {
 }
 
 .post {
+    padding-top: 20px;
     padding-bottom: 2em;
 }
 
@@ -179,6 +187,7 @@ nav {
 }
 
 footer div {
+    min-height: 300px;
     width: 100%;
     color: white;
     background-color: rgba(54, 87, 51, 0.75);
@@ -187,6 +196,11 @@ footer div {
     text-align: right;
     vertical-align: middle;
 }
+
+#footerDiv {
+    margin-top: 700px;
+}
+
 
 .modal-window {
     position: fixed;
@@ -239,6 +253,38 @@ p {
 
 #project4 {
     background-image: url('./components/images/projects/splash-workday.jpg');
+}
+
+.comment {
+    font-style: italic;
+}
+
+#contactForm {
+    margin-top: 25px;
+    width: 50%;
+}
+
+input {
+    width: 95%;
+    padding: 5px;
+    margin: 2%;
+    border: solid 2px lightgrey;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 95%;
+    padding: 5px;
+    margin: 2%;
+    border: solid 2px lightgrey;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    margin: 2%;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
 }
 
 @media (min-width: 48em) {

@@ -6,6 +6,7 @@ export default function Resume() {
         <>
             <div class="post" id="contactMe">
                 <h2 class="post-title">Contact Me</h2>
+
                 <div class="post-description">
 
                     <div class="container">
@@ -16,9 +17,22 @@ export default function Resume() {
                            <li><a href="https://www.linkedin.com/in/rangamboa/">LinkedIn</a> profile</li>
                         </ul>
                     </div>
+       
+                    <div id="contactForm">
+
+                      <form>
+                        <input type="text" id="yourName" placeholder="Name"></input>
+                        <input type="email" id="yourEmail" placeholder="Email"></input>
+                        <textarea placeholder="Let's chat!" rows="5"></textarea>    
+                        <button type="submit" variant="contained" color="primary">Submit</button>
+                     </form>
+
+                    </div>
                     
                 </div>
+
             </div>
+
         </>
-    )
-}
+    );
+};
