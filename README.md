@@ -33,8 +33,5 @@ I used the Pure CSS library to style the site, as well as the lessons learned pr
 
 [Portfolio](https://rangamboa.github.io/portfolio-react/)
 
-## Screenshots
-
-![Portfolio Screenshot](Images/Site/screenshot-portfolio.jpg)
 - - -
 © 2021 Ran Gamboa. ``Thanks for reading!``
