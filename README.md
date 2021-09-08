@@ -1,43 +1,40 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+``(ver. 09/07/2021)``
 
-## Available Scripts
+Here is a portfolio of work that showcases the skills I've learned in Web Dev bootcamp. This will be instrumental in helping me find employers looking to fill a part-time or full-time position. Since I will just be starting out in the industry, a well-designed and functional portfolio is an especially important way to showcase the projects that have been successful.
 
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
+## Versions
+09/11/2021:
+* restructured into a React framework. I had to undo the Javascript file I used to store the project information and will re-do that code in the near future
+* added two more projects to Work section
 
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+08/11/2021:
+* added Javascript to store updated project information for ease of use and dynamically rendering elements. This will cut down the hardcoded HTML as well
+* added a modal to display project screenshots
+* added a small footer
+* added comments to Javascript and HTML
 
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+07/18/2021:
+* rewrote HTML and CSS completely as I actually had projects to showcase!
 
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+06/22/2021:
+* built first portfolio page with mock projects
 
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
+## Resources
 
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
+I used the Pure CSS library to style the site, as well as the lessons learned previous bootcamp lessons.
 
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications 
-and the corresponding GitHub repositories
+* W3Schools
+* MDN
+* Pure CSS
 
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
+## Link to Deployed Github Page
 
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
+[Portfolio](https://rangamboa.github.io/portfolio-react/)
 
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
+## Screenshots
 
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+![Portfolio Screenshot](Images/Site/screenshot-portfolio.jpg)
+- - -
+© 2021 Ran Gamboa. ``Thanks for reading!``
