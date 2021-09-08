@@ -4,6 +4,8 @@ import projectScreenshot1 from './images/projects/screenshot-snackchat.jpg';
 import projectScreenshot2 from './images/projects/screenshot-calorie.jpg';
 import projectScreenshot3 from './images/projects/screenshot-weather.jpg';
 import projectScreenshot4 from './images/projects/screenshot-workday.jpg';
+import projectScreenshot5 from './images/projects/screenshot-budget.jpg';
+import projectScreenshot6 from './images/projects/screenshot-workout.jpg';
 
 export default function Projects() {
    
@@ -64,6 +66,34 @@ export default function Projects() {
                 <div>
                     <a href="#modal-close" title="close" class="moodal-close">close</a>
                     <h2>screenshot of Workday Scheduler</h2><img src={projectScreenshot4} alt="" title="screenshot of Workday Scheduler" class="screenShot" />
+                </div>
+            </div>
+
+            <div class="project pure-u-1 pure-u-md-1-2" id="project5">
+                <p>Budget Tracker<br />
+                <span><a href="https://rg-budget-tracker.herokuapp.com/" target="_new">deployed site</a>
+                &nbsp;&middot;&nbsp;<a href="https://github.com/rangamboa/budget-tracker" target="_new">GitHub repo</a>
+                &nbsp;&middot;&nbsp;<a href="#open-screenshot-budget" target="_new">screenshot</a></span></p>
+            </div>
+
+            <div id="open-screenshot-budget" class="modal-window">
+                <div>
+                    <a href="#modal-close" title="close" class="moodal-close">close</a>
+                    <h2>screenshot of Budget Tracker</h2><img src={projectScreenshot5} alt="" title="screenshot of Budget Tracker" class="screenShot" />
+                </div>
+            </div>
+
+            <div class="project pure-u-1 pure-u-md-1-2" id="project6">
+                <p>Workout Tracker<br />
+                <span><a href="https://github.com/rangamboa/workout-tracker" target="_new">deployed site</a>
+                &nbsp;&middot;&nbsp;<a href="https://github.com/rangamboa/workout-tracker" target="_new">GitHub repo</a>
+                &nbsp;&middot;&nbsp;<a href="#open-screenshot-workout" target="_new">screenshot</a></span></p>
+            </div>
+
+            <div id="open-screenshot-workout" class="modal-window">
+                <div>
+                    <a href="#modal-close" title="close" class="moodal-close">close</a>
+                    <h2>screenshot of Workout Tracker</h2><img src={projectScreenshot6} alt="" title="screenshot of Workout Tracker" class="screenShot" />
                 </div>
             </div>
 

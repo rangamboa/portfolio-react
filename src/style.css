@@ -255,6 +255,14 @@ p {
     background-image: url('./components/images/projects/splash-workday.jpg');
 }
 
+#project5 {
+    background-image: url('./components/images/projects/splash-budget.jpg');
+}
+
+#project6 {
+    background-image: url('./components/images/projects/splash-workout.jpg');
+}
+
 .comment {
     font-style: italic;
 }
